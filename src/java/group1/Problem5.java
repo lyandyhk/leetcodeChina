@@ -14,7 +14,7 @@ package group1;
  输入: "cbbd"
  输出: "bb
  */
-public class Problem4 {
+public class Problem5 {
     public String longestPalindrome(String s) {
         if(s == null || s.length() == 0)
             return "";
