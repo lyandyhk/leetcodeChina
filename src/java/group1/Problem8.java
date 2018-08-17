@@ -65,6 +65,8 @@ import java.util.List;
  */
 public class Problem8 {
     public static int myAtoi(String str) {
+
+        //步骤1
         if(str.trim().length() == 0)
             return 0;
         char[] chars = str.trim().toCharArray();
@@ -87,9 +89,6 @@ public class Problem8 {
             return 0;
         }
 
-
-
-
         //步骤3
         char temp;
         for(int i=1;i<chars.length;i++){
@@ -102,9 +101,6 @@ public class Problem8 {
             list.add(temp);
             if(!zeroNotIgnore)
                 zeroNotIgnore = true;
-
-
-
 
             //步骤4
             if(list.size()>10)
@@ -129,8 +125,6 @@ public class Problem8 {
         if(list.size()<10){
             return Integer.valueOf(sb.toString());
         }
-
-
 
         //步骤5
         String maxStr = "" + Integer.MAX_VALUE;
