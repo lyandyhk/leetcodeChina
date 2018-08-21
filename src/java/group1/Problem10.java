@@ -18,7 +18,7 @@ package group1;
  * 输出: false
  * 解释: 从右向左读, 为 01 。因此它不是一个回文数。
  */
-public class Problem9 {
+public class Problem10 {
     public boolean isPalindrome(int x) {
         String s = "" + x;
         char[] chars = s.toCharArray();
