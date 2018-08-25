@@ -7,8 +7,7 @@ import java.util.Collections;
  */
 public class ApplicationTest {
     public static void main(String[] args) {
-        String abc = "abcd";
+        int[] nes = new int[0];
 
-        System.out.println(abc.indexOf("d",4));
     }
 }
