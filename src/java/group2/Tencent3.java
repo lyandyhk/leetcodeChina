@@ -2,6 +2,9 @@ package group2;
 
     import java.util.Scanner;
 
+/**
+ *    巧克力，未完成
+  */
 public class Tencent3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
