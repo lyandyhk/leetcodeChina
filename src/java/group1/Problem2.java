@@ -47,8 +47,10 @@ public class Problem2 {
         return head;
     }
 }
- class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
+/*
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
+*/
